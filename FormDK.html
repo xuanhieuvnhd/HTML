@@ -5,16 +5,18 @@
     <title>FormDK</title>
 </head>
 <body>
+<form action="http://demo.codegym.vn/6/registration_form/register.php"method="post">
 <p>Họ và tên:</p>
-<input type="text">
+<input type="text" name="yourname">
 <p>Email:</p>
-<input type="email">
+<input type="email" name="email">
 <p>Số điện thoại:</p>
-<input type="phone">
+<input type="number" name="phone">
 <p>Giới tính:</p>
-<input type="radio" name="rd"/> Nam
-<input type="radio" name="rd"/> Nữ
-<input type="radio" name="rd"/> Other
-<p><input type = "button" name="btSubmit" value="Đăng ký"/></p>
+<input type="radio" name="gender"/> Nam
+<input type="radio" name="gender"/> Nữ
+<input type="radio" name="gender"/> Other
+<p><input type = "submit" name="btSubmit" value="Đăng ký"/></p>
+</form>
 </body>
 </html>
