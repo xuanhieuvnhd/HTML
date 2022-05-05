@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<center>
+<head>
+    <meta charset="UTF-8">
+    <title>Form cơ bản</title>
+</head>
+
+    </body>
+    <style>
+        .wufoo {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+    <body>
+    <form method="get" action="simpleform.html" class = "wufoo">
+        <h2>Đơn Đặt Hàng</h2>
+        <p>Bạn muốn mua gì?</p>
+        <select>
+            <option value = "  ">A</option>
+            <option>B (+  0.5$)</option>
+            <option>C (+  0.5$)</option>
+        </select>
+        <p>Bạn muốn mua bao nhiêu cái?</p>
+        <input type="radio" name="rd"/> 1 - $10 <br/>
+        <input type="radio" name="rd"/> 2 - $20 <br/>
+        <input type="radio" name="rd"/> 3 - $25 <br/
+        >
+        <p>Name <span style="color: red">*</span> </p>
+        <input type = "text" name="firstname" placeholder="Họ" size="15"/>
+        <input type = "text" name="lastname" placeholder="Tên" size="15"/>
+        <p>Hòm thư</p>
+        <input type = "text" name="email" size="35"/>
+        <p>Số điện thoại</p>
+        <input type = "text" name="phone1" size="5"/> -
+        <input type = "text" name="phone2" size="5"/> -
+        <input type = "text" name="phone3" size="5"/>
+        <p><input type = "button" name="btSubmit" value="Gửi đi"/></p>
+    </form>
+    </body>
+</html>
+</center>
